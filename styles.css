@@ -81,3 +81,36 @@ body{
     width: 100%;
     border: 5px solid black;
 }
+
+.container-photo{
+    max-width: 500px;
+    overflow: auto;
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.photo-doc{
+    max-width: 500px;
+    width: 100%;
+}
+
+.link-on{
+    width: 300px;
+    height: 400px;
+}
+
+.box-link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
