@@ -5,6 +5,10 @@ body{
 
 .header{
     padding-left: 10px;
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .container-trading{
@@ -19,6 +23,17 @@ body{
     background: #ffd100;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.ua{
+    background: none;
+    border: 2px solid #ffd100;
+    height: 26px;
+}
+
+.ua1{
+    text-decoration: none;
+    color: #ffd100;
 }
 
 .bulb{
