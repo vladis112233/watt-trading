@@ -159,20 +159,13 @@ body{
     font-size: 1rem;
 }
 
-.text-about-company{
-    text-align: center;
-}
-
 .link-mail-phone{
     text-decoration: none;
     color: black;
 }
 
 .name{
-    font-size: 1.5rem;
-}
-
-.name1{
     font-size: 2rem;
     font-weight: 600;
+    color: blue;
 }
