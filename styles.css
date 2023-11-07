@@ -68,6 +68,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 .docs{
@@ -118,15 +119,52 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .container-link{
     border-right: 1px solid;
     border-left: 1px solid;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .link-on-site{
     text-decoration: none;
     color: black;
+}
+
+.footer{
+    background: #ffd100;
+    padding: 30px;
+}
+
+.text-foot{
+    font-weight: 700;
+}
+
+.mail,
+.location,
+.phone{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+.phone{
+    margin-top: 10px;
+}
+
+.button{
+    height: 30px;
+    background: none;
+    border: 1px solid #ffd100;
+    cursor: pointer;
+    color: #ffd100;
+    border-radius: 4px;
 }
