@@ -124,9 +124,9 @@ body{
 }
 
 .container-link{
-    border-right: 1px solid;
-    border-left: 1px solid;
-    padding: 5px;
+    /*border-right: 2px solid #ffd100;*/
+    /*border-left: 2px solid #ffd100;*/
+    padding: 8px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -163,8 +163,13 @@ body{
 .button{
     height: 30px;
     background: none;
-    border: 1px solid #ffd100;
+    border: 2px solid #ffd100;
     cursor: pointer;
     color: #ffd100;
     border-radius: 4px;
+    font-size: 1rem;
+}
+
+.text-about-company{
+    text-align: center;
 }
