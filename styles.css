@@ -90,15 +90,24 @@ body{
 
 .container-photo{
     max-width: 500px;
-    overflow: auto;
-    height: 400px;
+    height: 200px;
     width: 100%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pdf{
+    text-decoration: none;
+    color: #ffd100;
 }
 
 .photo-doc{
     max-width: 500px;
     width: 100%;
+    height: 150px;
 }
 
 .link-on{
