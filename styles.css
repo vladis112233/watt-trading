@@ -137,7 +137,8 @@ body{
 
 .mail,
 .location,
-.phone{
+.phone,
+.schedule{
     display: flex;
     align-items: center;
     flex-direction: row;
