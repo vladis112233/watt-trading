@@ -8,10 +8,23 @@
 <body>
 <div class="header">
     <p class="name">ТОВ «ВАТТ ТРЕЙДІНГ»</p>
-    <div class="lang-buttons">
-        <button class="ua"><a class="ua1" href="#">UA</a></button>
-        <button class="ua"><a class="ua1" href="english-version.html">EN</a></button>
+    <div id="main" class="container-menu">
+        <div class="lang-buttons">
+            <button class="ua"><a class="ua1" href="#">UA</a></button>
+            <button class="ua"><a class="ua1" href="english-version.html">EN</a></button>
+        </div>
+        <button class="openbtn" onclick="openNav()">☰</button>
     </div>
+</div>
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">Про компанію</a>
+    <a href="#">Уставні документи</a>
+    <a href="#">Важливі ВЕБ-посилання</a>
+    <a href="#">Нормативно-правова база</a>
+    <a href="#">Інформація щодо порядку подання споживачами звернень, скарг, претензій</a>
+    <a href="#">Надання повідомлень про загрозу електробезпеці та їх розгляду</a>
+    <a href="#">Контакти</a>
 </div>
 <div class="container-trading">
     <img class="bulb" src="images/bulb.png" alt="bulb">
@@ -80,6 +93,6 @@
         </div>
     </div>
 </div>
-
+<script src="script.js"></script>
 </body>
 </html>
