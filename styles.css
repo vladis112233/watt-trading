@@ -270,7 +270,7 @@ body{
 }
 .vertmenu a {
     color: #477AB9;
-    font-size: 14px;
+    font-size: 16px;
     font-weight:bold;
     text-decoration:none;
 }
@@ -312,5 +312,9 @@ body{
 
 .text-h1{
     text-align: center;
+}
+
+.link1{
+    margin-bottom: 20px;
 }
 
